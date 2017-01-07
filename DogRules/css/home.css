@@ -13,13 +13,7 @@ body{
     margin-bottom: 0px;
     border-radius: 0px;
 }
-/*nav bar csss*/
 /*
-.navbar-inverse {
-     background: deepskyblue;
-}
-*/
-
 
 .navbar-nav li{
     
@@ -35,7 +29,7 @@ body{
 #slide{
     margin: 0px;
 }
-/*slider div col css*/
+/*slider css*/
 #slider1
 {
      min-height: 0px;
