@@ -1,0 +1,95 @@
+/*
+body{
+    background-color: goldenrod;
+}
+*/
+.navbar-default{
+    background: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+/*
+
+.navbar-nav li{
+    
+    padding-left: 50px;
+    font-size: 20px;
+}
+*/
+/*slider images css*/
+#tales{
+    width: 100%;
+    height: 300px;
+}
+#slide{
+    margin: 0px;
+}
+/*slider div col css*/
+#slider1
+{
+     min-height: 0px;
+     padding-right: 0px; 
+     padding-left: 0px; 
+}
+/*Dog Rules H1 Css*/
+.name{
+    color: deepskyblue;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+}
+/*
+.himage{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*/
+
+.history {
+    font-family: cursive;
+   
+    font-size: 1.5em;
+    overflow: auto;
+}
+.pfact
+{
+    font-family: cursive;
+    padding: 25px;
+    font-size: 1.5em;
+}
+
+#fact1{
+    width:100%;
+    height: 200px;
+}
+#fact1{
+    margin-top: 10px;
+}
+#ifact2{
+    margin-top: 10px;
+}
+#ifact3{
+    margin-top: 10px;
+}
+#fact2{
+    width:100%;
+    height: 200px;
+}
+#fact3{
+    width:100%;
+    height: 200px;
+}
+/*Fotter css*/
+.row-footer{
+    background-color: deepskyblue;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px ;
+}
+#footl li a{
+    color: white;
+}
