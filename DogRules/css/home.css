@@ -13,6 +13,7 @@ body{
     margin-bottom: 0px;
     border-radius: 0px;
 }
+
 /*
 
 .navbar-nav li{
@@ -86,10 +87,15 @@ body{
 }
 /*Fotter css*/
 .row-footer{
-    background-color: deepskyblue;
+    background-color:deepskyblue;
     margin: 0px auto;
     padding: 20px 0px 20px 0px ;
 }
 #footl li a{
     color: white;
+}
+#footimg{
+    width: 80%;
+    height: 100px;
+    border-color:solid silver;
 }
