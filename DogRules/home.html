@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to the DogRules</title>
     <link href="img/favicon.ico" type="image" rel="icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -12,7 +12,7 @@
     <link href="css/home.css" rel="stylesheet"> </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -21,11 +21,35 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li> <a href="home.html">Home</a></li>
-                    <li><a href="#">Breeds</a></li>
-                    <li><a href="#">Vaccination</a></li>
-                    <li><a href="#">Food</a></li>
+                    <li class="dropdown"> 
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"> Breeds</a>
+                 <ul class="dropdown-menu">
+                    <li><a href="breeds.html">Large Dogs</a></li>
+                    <li><a href="#">Medium Dogs</a></li>
+                    <li><a href="#">Small Dogs</a></li>            
+                    </ul>
+                </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">Vaccination</a>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Type1</a></li>
+                       <li><a href="#">Type2</a></li>
+                        
+                    </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">Food</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Puppies</a></li>
+                        <li><a href="#">Large Dogs</a></li>
+                        <li><a href="#">Medium Dogs</a></li>
+                        <li><a href="#">Small Dogs</a></li>
+                    </ul>
+                    </li>
                     <li><a href="#">Training</a></li>
                 </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="form-group has-feedback has-feedback-left">
+                        <input type="text" class="form-control" placeholder="Search"> <i class="form-control-feedback glyphicon glyphicon-search"></i> </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -63,26 +87,27 @@
             <div class="col-xs-6 col-sm-9">
                 <h2>History</h2>
                 <p class="history">Dog history is really the history of the partnership between dogs (Canis lupus familiaris) and humans. That partnership is based on a human need for help with herding and hunting, for an early alarm system, and for a source of food in addition to the companionship many of us today know and love. Dogs get companionship, protection and shelter, and a reliable food source out of the deal. But when this partnership first occurred is still under some controversy. </p>
-</div>
-</div>
-    
-<div class="row row-content">
-    <div class="col-xs-12 col-sm-12">
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-12">
+                <h2 class="animated slideOutLeft infinite">More Facts About Dog</h2>
+                <!--
         <marquee behavior="alternate">
             <h2>More Facts About Dog</h2></marquee>
-    </div>
-</div>
-<div class="row row-content">
-    <div class="col-xs-12 col-sm-8 ">
-        <p class="pfact">The Average Dog has 200 to 500 million scent receptor in their nose human have approximately 5 million receptor in their nose</P>
-    </div>
-    <div class="col-xs-12 col-sm-4 " class="img-thumbnail" id="ifact1"> <img src="img/Facts/Dog-Nose-Fact.jpg" id="fact1"> </div>
-    <!--
+-->
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-8 ">
+                <p class="pfact">The Average Dog has 200 to 500 million scent receptor in their nose human have approximately 5 million receptor in their nose</P>
+            </div>
+            <div class="col-xs-12 col-sm-4 " class="img-thumbnail" id="ifact1"> <img src="img/Facts/Dog-Nose-Fact.jpg" id="fact1"> </div>
+            <!--
     <div class="col-xs-12 col-sm-4" class="img-thumbnail" id="ifact2"> <img src="img/Facts/dogs-in-the-rain.jpg" id="fact2"> </div>
     <div class="col-xs-12 col-sm-4" class="img-thumbnail" id="ifact3"> <img src="img/Facts/dogs_facts_02.jpg" id="fact3"> </div>
 --></div>
-
-<!--
+        <!--
  <div class="row row-content">
    <div class="col-xs-12 col-sm-4" class="img-thumbnail" id="ifact1">
         <img src="img/Facts/facts_about_dogs_04.jpg" id="fact1">
@@ -94,40 +119,29 @@
         <img src="img/Facts/tumblr_nhawmuzdnk1qkvbwso1_500.png" id="fact3">
     </div>
 -->
-    
-
-
-<hr style="height:2px; background-color:silver">
-   <div class="row row-content">
-   <div class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1">
-      <img src="img/footer/footer%201.jpg" class="img-circle" id="footimg">
-       </div>
-       <div class="col-xs-2 col-sm-2">
-      <img src="img/footer/footer2.jpg" class="img-circle" id="footimg">
-       </div>
-       <div class="col-xs-2 col-sm-2">
-      <img src="img/footer/footer3.jpg" class="img-circle" id="footimg">
-       </div>
-       <div class="col-xs-2 col-sm-2">
-      <img src="img/footer/footer4.jpg" class="img-circle" id="footimg">
-       </div>
-       <div class="col-xs-2 col-sm-2">
-      <img src="img/footer/footer5.jpg" class="img-circle" id="footimg">
-       </div>
+        <hr style="height:2px; background-color:silver">
+        <div class="row row-content">
+            <div class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1"> <img src="img/footer/footer%201.jpg" class="img-circle" id="footimg"> </div>
+            <div class="col-xs-2 col-sm-2"> <img src="img/footer/footer2.jpg" class="img-circle" id="footimg"> </div>
+            <div class="col-xs-2 col-sm-2"> <img src="img/footer/footer3.jpg" class="img-circle" id="footimg"> </div>
+            <div class="col-xs-2 col-sm-2"> <img src="img/footer/footer4.jpg" class="img-circle" id="footimg"> </div>
+            <div class="col-xs-2 col-sm-2"> <img src="img/footer/footer5.jpg" class="img-circle" id="footimg"> </div>
+        </div>
     </div>
-    </div>
-    <footer class="row-footer" >
-        <div class="container-fluid" >
-           <div class="col-sm-2 col-sm-offset-1" id="footl">
-              <h5 style="color:white">Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="AboutUs.Html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
-                    </ul>
-               
-           </div>            
+    <footer class="row-footer">
+        <div class="container-fluid">
+            <div class="col-xs-3 col-sm-2 col-sm-offset-1" id="footl">
+                <h5 style="color:white">Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.Html">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-9 col-sm-4" id="footl">
+                <div class="nav navbar"> <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a> <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a> <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a> <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a> <a class="btn btn-social-icon" href="mailto:grdangi@yahoo.com"><i class="fa fa-envelope-o"></i></a> </div>
+            </div>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
