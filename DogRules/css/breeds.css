@@ -67,14 +67,15 @@
 {
     position: relative;
     top: 50px;
-    width=100%; border:2px solid blue;margin-top:10px;
+    width=100%; margin-top:10px;
    display: none;
 }
 #div3
 {
     position: relative;
     top: 50px;
-    width=100%; border:2px solid blue;margin-top:10px;
+    width=100%; 
+    margin-top:10px;
    display: none;
 }
 
