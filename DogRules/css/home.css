@@ -60,7 +60,7 @@ body{
 
 .history {
     font-family: cursive;
-   
+   color: black;
     font-size: 1.5em;
     overflow: auto;
 }
@@ -98,10 +98,13 @@ body{
     margin: 0px auto;
     padding: 20px 0px 20px 0px ;
 }
-#footl{
-    margin-top: 55px;;
+#foota{
+    margin-top: 55px;
 }
-#footl li a{
+#footb{
+    margin-top: 55px;
+}
+#foota li a{
     color: white;
 }
 #footimg{
